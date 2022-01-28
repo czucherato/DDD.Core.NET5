@@ -1,0 +1,1050 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="0.7916" version="1.9" timestamp="1643328400" lines-covered="236" lines-valid="236" branches-covered="19" branches-valid="24">
+  <sources>
+    <source>D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\</source>
+  </sources>
+  <packages>
+    <package name="DDD.Core.NET5.Common" line-rate="1" branch-rate="0.7916" complexity="95">
+      <classes>
+        <class name="DDD.Core.NET5.Common.Specification.AndSpecification`1" filename="Specification\AndSpecification.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="ToExpression" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(DDD.Core.NET5.Common.Specification.Specification`1&lt;T&gt;,DDD.Core.NET5.Common.Specification.Specification`1&lt;T&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Specification.GenericSpecification`1" filename="Specification\GenericSpecification.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Expression" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="IsSatisfiedBy" signature="(T)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;T,System.Boolean&gt;&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Specification.NotSpecification`1" filename="Specification\NotSpecification.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="ToExpression" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(DDD.Core.NET5.Common.Specification.Specification`1&lt;T&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Specification.OrSpecification`1" filename="Specification\OrSpecification.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="ToExpression" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(DDD.Core.NET5.Common.Specification.Specification`1&lt;T&gt;,DDD.Core.NET5.Common.Specification.Specification`1&lt;T&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Specification.Specification`1" filename="Specification\Specification.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="IsSatisfiedBy" signature="(T)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="7" branch="False" />
+                <line number="10" hits="7" branch="False" />
+                <line number="11" hits="7" branch="False" />
+                <line number="12" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="And" signature="(DDD.Core.NET5.Common.Specification.Specification`1&lt;T&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Or" signature="(DDD.Core.NET5.Common.Specification.Specification`1&lt;T&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Not" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="7" branch="False" />
+            <line number="10" hits="7" branch="False" />
+            <line number="11" hits="7" branch="False" />
+            <line number="12" hits="7" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Specification.Validation.Rule`1" filename="Specification\Validation\Rule.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_ErrorMessage" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="Validate" signature="(T)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="3" branch="False" />
+                <line number="17" hits="3" branch="False" />
+                <line number="18" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(DDD.Core.NET5.Common.Specification.Specification`1&lt;T&gt;,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="8" branch="False" />
+                <line number="8" hits="8" branch="False" />
+                <line number="9" hits="8" branch="False" />
+                <line number="10" hits="8" branch="False" />
+                <line number="11" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="7" hits="8" branch="False" />
+            <line number="8" hits="8" branch="False" />
+            <line number="9" hits="8" branch="False" />
+            <line number="10" hits="8" branch="False" />
+            <line number="11" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Specification.Validation.SpecValidator`1" filename="Specification\Validation\SpecValidator.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="Validate" signature="(T)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="10" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="114" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="2" branch="False" />
+                <line number="15" hits="2" branch="False" />
+                <line number="16" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="63" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="2" branch="False" />
+                <line number="20" hits="2" branch="False" />
+                <line number="21" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Add" signature="(System.String,DDD.Core.NET5.Common.Specification.Validation.Rule`1&lt;T&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="5" branch="False" />
+                <line number="25" hits="5" branch="False" />
+                <line number="26" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="Remove" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetRule" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="10" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="114" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="2" branch="False" />
+            <line number="15" hits="2" branch="False" />
+            <line number="16" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="63" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="2" branch="False" />
+            <line number="20" hits="2" branch="False" />
+            <line number="21" hits="2" branch="False" />
+            <line number="24" hits="5" branch="False" />
+            <line number="25" hits="5" branch="False" />
+            <line number="26" hits="5" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="8" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Messages.Event`1" filename="Messages\Event.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Messages.Message`1" filename="Messages\Message.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_MessageType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AggregateId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TimeStamp" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="11" branch="False" />
+                <line number="8" hits="11" branch="False" />
+                <line number="9" hits="11" branch="False" />
+                <line number="10" hits="11" branch="False" />
+                <line number="11" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="12" branch="False" />
+            <line number="15" hits="2" branch="False" />
+            <line number="17" hits="12" branch="False" />
+            <line number="7" hits="11" branch="False" />
+            <line number="8" hits="11" branch="False" />
+            <line number="9" hits="11" branch="False" />
+            <line number="10" hits="11" branch="False" />
+            <line number="11" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Messages.Query`2" filename="Messages\Query.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Messages.Commands.CommandRequest`2" filename="Messages\Commands\CommandRequest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_ValidationResult" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="13" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="18" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="13" branch="False" />
+            <line number="9" hits="18" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Messages.Commands.CommandResponse`1" filename="Messages\Commands\CommandResponse.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Command" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Source" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Succeeded" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AggregateId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MessageType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(TId,System.Object,System.Object,System.String,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="False" />
+                <line number="8" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="7" hits="1" branch="False" />
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Mediator.MediatorHandler" filename="Mediator\MediatorHandler.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(MediatR.IMediator)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+                <line number="13" hits="3" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Mediator.MediatorHandler/&lt;Publish&gt;d__2`2" filename="Mediator\MediatorHandler.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Mediator.MediatorHandler/&lt;Query&gt;d__3`3" filename="Mediator\MediatorHandler.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Mediator.MediatorHandler/&lt;Send&gt;d__4`3" filename="Mediator\MediatorHandler.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Logging.Log" filename="Logging\Log.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_User" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Source" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Command" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MessageType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LogLevel" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Exception" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CriadoEm" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="7" branch="False" />
+                <line number="9" hits="7" branch="False" />
+                <line number="10" hits="7" branch="False" />
+                <line number="11" hits="7" branch="False" />
+                <line number="12" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.Extensions.Logging.LogLevel,System.Object,System.Object,System.Object,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="7" branch="False" />
+                <line number="16" hits="7" branch="False" />
+                <line number="17" hits="7" branch="False" />
+                <line number="18" hits="7" branch="False" />
+                <line number="19" hits="7" branch="False" />
+                <line number="20" hits="7" branch="False" />
+                <line number="21" hits="7" branch="False" />
+                <line number="22" hits="7" branch="False" />
+                <line number="23" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="7" branch="False" />
+            <line number="27" hits="7" branch="False" />
+            <line number="29" hits="7" branch="False" />
+            <line number="31" hits="7" branch="False" />
+            <line number="33" hits="7" branch="False" />
+            <line number="35" hits="7" branch="False" />
+            <line number="37" hits="7" branch="False" />
+            <line number="39" hits="7" branch="False" />
+            <line number="8" hits="7" branch="False" />
+            <line number="9" hits="7" branch="False" />
+            <line number="10" hits="7" branch="False" />
+            <line number="11" hits="7" branch="False" />
+            <line number="12" hits="7" branch="False" />
+            <line number="15" hits="7" branch="False" />
+            <line number="16" hits="7" branch="False" />
+            <line number="17" hits="7" branch="False" />
+            <line number="18" hits="7" branch="False" />
+            <line number="19" hits="7" branch="False" />
+            <line number="20" hits="7" branch="False" />
+            <line number="21" hits="7" branch="False" />
+            <line number="22" hits="7" branch="False" />
+            <line number="23" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Logging.Logger" filename="Logging\Logger.cs" line-rate="1" branch-rate="0.5832999999999999" complexity="14">
+          <methods>
+            <method name="BeginScope" signature="(TState)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="IsEnabled" signature="(Microsoft.Extensions.Logging.LogLevel)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="3" type="jump" coverage="100%" />
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="Log" signature="(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,TState,System.Exception,System.Func`3&lt;TState,System.Exception,System.String&gt;)" line-rate="1" branch-rate="0.375" complexity="8">
+              <lines>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="True" condition-coverage="16.66% (1/6)">
+                  <conditions>
+                    <condition number="29" type="jump" coverage="50%" />
+                    <condition number="34" type="jump" coverage="0%" />
+                    <condition number="47" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(DDD.Core.NET5.Common.Logging.ILogRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="6" branch="False" />
+                <line number="9" hits="6" branch="False" />
+                <line number="10" hits="6" branch="False" />
+                <line number="11" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="3" type="jump" coverage="100%" />
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="23" hits="3" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="True" condition-coverage="16.66% (1/6)">
+              <conditions>
+                <condition number="29" type="jump" coverage="50%" />
+                <condition number="34" type="jump" coverage="0%" />
+                <condition number="47" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="8" hits="6" branch="False" />
+            <line number="9" hits="6" branch="False" />
+            <line number="10" hits="6" branch="False" />
+            <line number="11" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Logging.Logger/NoopDisposable" filename="Logging\Logger.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Dispose" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="35" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Logging.LoggerDatabaseProvider`1" filename="Logging\LoggerDatabaseProvider.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="CreateLogger" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Dispose" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(DDD.Core.NET5.Common.Logging.ILogRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="False" />
+                <line number="9" hits="3" branch="False" />
+                <line number="10" hits="3" branch="False" />
+                <line number="11" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="8" hits="3" branch="False" />
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="3" branch="False" />
+            <line number="11" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Handlers.BaseCommandHandlerBehavior`3" filename="Handlers\BaseCommandHandlerBehavior.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(DDD.Core.NET5.Common.Data.IUnitOfWork,DDD.Core.NET5.Common.Mediator.IMediatorHandler)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Handlers.CommandHandler" filename="Handlers\CommandHandler.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Validate" signature="(T)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+                <line number="13" hits="3" branch="False" />
+                <line number="14" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="73" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(FluentValidation.Results.ValidationResult)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="73" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="9" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Handlers.EventHandler" filename="Handlers\EventHandler.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(FluentValidation.Results.ValidationResult)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Handlers.Handler" filename="Handlers\Handler.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="AddError" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="2" branch="False" />
+                <line number="16" hits="2" branch="False" />
+                <line number="17" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="ClearErrors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(FluentValidation.Results.ValidationResult)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="7" branch="False" />
+                <line number="8" hits="7" branch="False" />
+                <line number="9" hits="7" branch="False" />
+                <line number="10" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="2" branch="False" />
+            <line number="16" hits="2" branch="False" />
+            <line number="17" hits="2" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="7" hits="7" branch="False" />
+            <line number="8" hits="7" branch="False" />
+            <line number="9" hits="7" branch="False" />
+            <line number="10" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Handlers.QueryHandler" filename="Handlers\QueryHandler.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(FluentValidation.Results.ValidationResult)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.DomainObjects.DomainException" filename="DomainObjects\DomainException.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Exception)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="3" branch="False" />
+            <line number="11" hits="3" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.DomainObjects.Entity`1" filename="DomainObjects\Entity.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="8" hits="4" branch="False" />
+                <line number="9" hits="4" branch="False" />
+                <line number="11" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="12" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="26" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="11" branch="False" />
+            <line number="8" hits="4" branch="False" />
+            <line number="9" hits="4" branch="False" />
+            <line number="11" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="12" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="26" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="4" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.DomainObjects.ValueObject" filename="DomainObjects\ValueObject.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+                <line number="13" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="1" branch="False" />
+                <line number="16" hits="2" branch="False" />
+                <line number="18" hits="2" branch="False" />
+                <line number="19" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="24" hits="2" branch="False" />
+                <line number="25" hits="4" branch="False" />
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="4" branch="False" />
+                <line number="28" hits="4" branch="False" />
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="6" branch="False" />
+                <line number="31" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="1" branch="False" />
+            <line number="16" hits="2" branch="False" />
+            <line number="18" hits="2" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="24" hits="2" branch="False" />
+            <line number="25" hits="4" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="4" branch="False" />
+            <line number="28" hits="4" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="6" branch="False" />
+            <line number="31" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Configuration.FluentValidationConfig" filename="Configuration\FluentValidationConfig.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="AddFluentValidation" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="DDD.Core.NET5.Common.Configuration.MediatorConfig" filename="Configuration\MediatorConfig.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="AddMediator" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

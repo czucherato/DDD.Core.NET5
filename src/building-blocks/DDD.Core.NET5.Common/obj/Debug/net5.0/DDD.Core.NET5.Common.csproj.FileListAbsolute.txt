@@ -1,0 +1,12 @@
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\bin\Debug\net5.0\DDD.Core.NET5.Common.deps.json
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\bin\Debug\net5.0\DDD.Core.NET5.Common.dll
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\bin\Debug\net5.0\ref\DDD.Core.NET5.Common.dll
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\bin\Debug\net5.0\DDD.Core.NET5.Common.pdb
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\obj\Debug\net5.0\DDD.Core.NET5.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\obj\Debug\net5.0\DDD.Core.NET5.Common.AssemblyInfoInputs.cache
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\obj\Debug\net5.0\DDD.Core.NET5.Common.AssemblyInfo.cs
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\obj\Debug\net5.0\DDD.Core.NET5.Common.csproj.CoreCompileInputs.cache
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\obj\Debug\net5.0\DDD.Core.NET5.Common.dll
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\obj\Debug\net5.0\ref\DDD.Core.NET5.Common.dll
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\obj\Debug\net5.0\DDD.Core.NET5.Common.pdb
+D:\Projetos\DDD.Core.NET5\src\building-blocks\DDD.Core.NET5.Common\obj\Debug\net5.0\DDD.Core.NET5.Common.csproj.AssemblyReference.cache
